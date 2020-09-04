@@ -1,0 +1,149 @@
+/* Moderní box model - nastavená šířka boxu v této verzi zahrnuje padding a border */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: Nunito, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	color: #696969;
+	background-color: #fcf5cf;
+}
+
+h1,
+h2 {
+	font-family: 'Mali', serif;
+}
+
+h1 {
+	font-size: 3.5rem;
+	text-align: center;
+	color: #00ace6;
+}
+
+h2 {
+	font-size: 2.5rem;
+	color: #559933;
+}
+
+a {
+	font-weight: bold;
+	color: #00ace6;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.obsah {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.uvod {
+	text-align: center;
+	background-color: #ccf2ff;
+}
+
+/* Menu */
+.menu {
+	font-family: 'Mali', serif;
+	background-color: #559933;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a,
+.menu span {
+	font-size: 1.5rem;
+	font-weight: normal;
+	display: block;
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+	color: #ffe566;
+}
+
+.menu a:hover,
+.menu a:active,
+.menu a:focus,
+.menu .active {
+	color: #559933;
+	background-color: #ffe566;
+}
+
+.o-mne,
+.uvod,
+.galerie,
+.kontakt,
+.paticka {
+	padding: 1rem;
+}
+
+.o-mne {
+	background-color: #ccf2ff;
+}
+
+.galerie {
+	background-color: #fcf5cf;
+}
+
+.kontakt {
+	background-color: #defccf;
+}
+
+img {
+	width: 300px;
+	margin: 0.3rem;
+	padding: 0.6rem;
+	padding-bottom: 1.8rem;
+	border: 2px solid #559933;
+	border-bottom-color: #2a4d19;
+	background-color: #ffffff;
+}
+
+.obrazek-siroky {
+	width: 100%;
+}
+
+.kontakt a:hover {
+	color: #559933;
+}
+
+.mapa {
+	/* border-color: #ffe566; */
+
+}
+
+.paticka {
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	text-align: center;
+	color: #ffffff;
+	background-color: #804000;
+}
+
+.licence {
+	font-size: 80%;
+}
+
+.paticka a {
+	color: #ffffff;
+}
+
+.paticka a:hover {
+	text-decoration: none;
+	color: #ffe566;
+}
